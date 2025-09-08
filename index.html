@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Login</title>
+</head>
+
+<body class="bg-gray-300 h-screen flex justify-center items-center">
+    <form class="bg-white w-[30%] p-7 rounded-[10px] shadow-md">
+        <h1 class="text-center text-2xl font-bold text-gray-700">Faça seu Login</h1>
+        <div class="flex flex-col gap-2 mt-4">
+            <label class="text-xs text-gray-700 " for="e-mail">E-mail</label>
+            <input class="border-1 border-gray-300 p-3 rounded-xl text-sm" type="e-amil" id="e-mail"
+                placeholder="Digite seu e-mail">
+
+        </div>
+        <div class="flex flex-col gap-2">
+            <label class="text-xs text-gray-700 mt-4" for="senha">Senha</label>
+            <input class="border-1 border-gray-300 p-3 rounded-xl text-sm" type="password" id="senha"
+                placeholder="Digite sua senha">
+        </div>
+        <div class="flex flex-col gap-2 mt-4" id="container-chackbox">
+            <div class="flex flex-row justify-between mt-4 mb-4">
+                <div class="flex items-center gap-2">
+                    <input type="checkbox" name="lembrar-senha" id="lembrar-senha">
+                    <label class="text-xs text-gray-700" for="lembrar-senha">Lembrar senha</label>
+                </div>
+                <a class="text-xs text-violet-700 font-bold" href="">Esqueceu a senha?</a>
+            </div>
+            <button
+                class="flex-col w-full bg-violet-300 p-3 rounded-xl text-sm cursor-pointer houver:bg-violet-400 hover:text-white hover:bg-violet-500"
+                type="submit">Entrar</button>
+            <div class="flex items-center mt-4 text-xs text-gray-700 justify-center gap-2 mt-4 mb-4">
+                <p class="text-xs text-gray-700 font-bold">
+                    não tem uma conta?
+                </p>
+                <a class="text-xs text-violet-700 font-bold" href="">cadastre-se</a>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>
