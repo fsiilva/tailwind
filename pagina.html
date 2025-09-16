@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Facebook – entre ou cadastre-se</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --fb-blue: #1877f2;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+
+    <div class="flex flex-col lg:flex-row items-center justify-between max-w-6xl w-full px-6">
+
+        <!-- Coluna esquerda -->
+        <div class="flex flex-col items-start mb-10 lg:mb-0 lg:w-1/2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook"
+                class="w-60 mb-6">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 leading-snug">O Facebook ajuda você a se conectar e
+                compartilhar com as pessoas que fazem parte da sua vida.</h2>
+        </div>
+
+        <!-- Coluna direita -->
+        <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-sm lg:w-1/3">
+            <form class="flex flex-col space-y-4">
+                <input type="text" placeholder="Email ou telefone"
+                    class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[var(--fb-blue)]">
+                <input type="password" placeholder="Senha"
+                    class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[var(--fb-blue)]">
+                <button class="w-full bg-[var(--fb-blue)] text-white font-semibold py-3 rounded-md">Entrar</button>
+                <a href="#" class="text-center text-[var(--fb-blue)] hover:underline text-sm">Esqueceu a senha?</a>
+                <div class="border-b border-gray-300"></div>
+                <button class="w-full bg-green-500 text-white font-semibold py-3 rounded-md">Criar nova conta</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="mt-12 text-center text-xs text-gray-500 space-y-2">
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="#" class="hover:underline">Português (Brasil)</a>
+            <a href="#" class="hover:underline">English (US)</a>
+            <a href="#" class="hover:underline">Español</a>
+            <a href="#" class="hover:underline">Français (France)</a>
+        </div>
+        <p>Facebook © 2025</p>
+    </footer>
+
+</body>
+
+</html>

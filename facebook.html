@@ -8,49 +8,78 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Facebook</title>
+    <title>Facebook – entre ou cadastre-se</title>
 </head>
 
 <body class="h-screen flex flex-col justify-between bg-gray-100" id="container-principal">
-    <div class="flex flex-row justify-center items-center gap-10 h-screen bg-blue-100" id="container-principal">
+    <div class="flex flex-row justify-center items-center gap-10 h-screen bg-gray-100" id="container-principal">
         <div class="flex flex-col justify-center items-r gap-5 w-[40%] max-[1280px]:w-full max-[1280px]:py-10">
-            <h1 class="text-5xl text-blue-600 font-bold">facebook</h1>
-            <p class="font-light text-2xl w-[60%] text-center">O facebook ajuda você a se conectar e compartilhar com as
+            <h1 class="text-6xl text-blue-600 font-bold">facebook</h1>
+            <p class="font-light text-2xl w-[60%] text-r">O facebook ajuda você a se conectar e compartilhar com as
                 pessoas que fazem parte da sua vida.</p>
         </div>
-        <div>
-            <form
-                class="flex justify-center flex-col gap-4 items-center w-[400px] h-[400px] bg-white p-10 rounded-lg shadow-lg max-[1280px]:w-full max-[1280px]:h-[40%]  max-[1280px]:py-10">
-                <label class="flex items-center gap-4 bg-gray-100 p-3 rounded-lg text-sm w-full">
-
-                    <input type="email" name="email" placeholder="Email">
-                </label>
-                <label class="flex items-center gap-4 bg-gray-100 p-3 rounded-lg text-sm w-full">
-                    <input type="password" name="password" placeholder="Password">
-                </label>
-                <button>Entrar</button>
-                <a href="">Esqueceu a senha?</a>
-                <hr>
-                <button>Criar Conta</button>
+        <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-sm lg:w-1/3">
+            <form class="flex flex-col space-y-4">
+                <input type="text" placeholder="Email ou telefone"
+                    class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[var(--fb-blue)]">
+                <input type="password" placeholder="Senha"
+                    class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[var(--fb-blue)]">
+                <button class="w-full bg-blue-600 text-white font-semibold py-3 rounded-md">Entrar</button>
+                <a href="#" class="text-center text-blue-700 font-bold hover:underline text-sm">Esqueceu a senha?</a>
+                <div class="border-b border-gray-300"></div>
+                <button class="w-full bg-green-500 text-white font-semibold py-3 rounded-md">Criar nova conta</button>
             </form>
-            <a href="">Criar uma Pagina</a>
-            <p>para uma celebridade, uma marca ou uma empresa.</p>
         </div>
 
     </div>
-    <div class="flex flex-col justify-center items-center gap-2 p-5 text-xs text-gray-500 h-[300px]">
-        <p>Português (Brasil)
-            English (US)
-            Español
-            Français (France)
-            Italiano
-            Deutsch
-            العربية
-            हिन्दी
-            中文(简体)
-            日本語
-        </p>
-    </div>
+    <footer class="flex flex-col items-start gap-0.1 py-4 bg-white text-gray-500 text-xs w-full pr-[300px] pl-[300px]">
+
+        <div class="flex flex-row justify-r gap-4">
+            <a href="#" class="hover:underline">Português (Brasil)</a>
+            <a href="#" class="hover:underline">English (US)</a>
+            <a href="#" class="hover:underline">Español</a>
+            <a href="#" class="hover:underline">Français (France)</a>
+            <a href="#" class="hover:underline">Italiano</a>
+            <a href="#" class="hover:underline">Deutsch</a>
+            <a href="#" class="hover:underline">العربية</a>
+            <a href="#" class="hover:underline">हिन्दी</a>
+            <a href="#" class="hover:underline">中文(简体)</a>
+            <a href="#" class="hover:underline">日本語</a>
+
+
+        </div>
+        <hr class="w-full border-t border-gray-300 my-2">
+        <div class="flex justify-r gap-1 flex-wrap">
+
+            <a href="#" class="hover:underline">Cadastre-se</a>
+            <a href="#" class="hover:underline">Entrar</a>
+            <a href="#" class="hover:underline">Messenger</a>
+            <a href="#" class="hover:underline">Facebook Lite</a>
+            <a href="#" class="hover:underline">Vídeo</a>
+            <a href="#" class="hover:underline">Meta Pay</a>
+            <a href="#" class="hover:underline">Meta Store</a>
+            <a href="#" class="hover:underline">Meta Quest</a>
+            <a href="#" class="hover:underline">Ray-Ban Meta</a>
+            <a href="#" class="hover:underline">Meta AI</a>
+            <a href="#" class="hover:underline">Mais conteúdo da Meta AI</a>
+            <a href="#" class="hover:underline">Instagram</a>
+            <a href="#" class="hover:underline">Threads</a>
+            <a href="#" class="hover:underline">Central de Informações de Votação</a>
+            <a href="#" class="hover:underline">Política de Privacidade</a>
+            <a href="#" class="hover:underline">Central de Privacidade</a>
+            <a href="#" class="hover:underline">Sobre</a>
+            <a href="#" class="hover:underline">Criar anúncio</a>
+            <a href="#" class="hover:underline">Criar Página</a>
+            <a href="#" class="hover:underline">Desenvolvedores</a>
+            <a href="#" class="hover:underline">Carreiras</a>
+            <a href="#" class="hover:underline">Cookies</a>
+            <a href="#" class="hover:underline">Escolhas para anúncios</a>
+            <a href="#" class="hover:underline">Termos</a>
+            <a href="#" class="hover:underline">Ajuda</a>
+            <a href="#" class="hover:underline">Upload de contatos e não usuários</a>
+            <a href="#" class="hover:underline">Configurações</a>
+        </div>
+    </footer>
 </body>
 
 </html>
