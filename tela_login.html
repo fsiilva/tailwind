@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+</head>
+
+<body class="h-screen flex flex-row max-[1280px]:flex-col " id="container-principal">
+    <div class="text-white bg-[#58af9c] flex justify-center items-center flex-col w-[40%] gap-5 max-[1280px]:w-full max-[1280px]:py-10"
+        id=" container-esquerdo">
+        <h2 class="text-5xl font-bold">Welcome Back</h2>
+        <p class="font-light text-2xl w-[60%] text-center">To keep connected with us please login with your personal
+            info</p>
+        <button class="border-2 border-white px-20 py-5 text-2xl font-bold uppercase rounded-full cursor-pointer">Sign
+            In</button>
+    </div>
+    <div id="container-direito"
+        class="flex-col flex justify-center items-center w-[60%] gap-5 max-[1280px]:w-full max-[1280px]:h-[40%]  max-[1280px]:py-10">
+        <div class="flex flex-col justify-center items-center gap-5">
+            <h1 class="text-5xl font-bold text-[#58af9c]">Create Acaount</h1>
+            <div class="flex flex-row justify-center items-center gap-4" id="container-icones">
+                <div class="border-2 border-gray-300 font-bold rounded-full w-16 h-16 flex justify-center items-center"
+                    id="bola-1">
+                    <i class="fa-brands fa-facebook-f text-gray-700 text-3xl"></i>
+                </div>
+                <div class="border-2 border-gray-300 font-bold rounded-full w-16 h-16 flex justify-center items-center"
+                    id="bola-2"><i class="fa-brands fa-google-plus-g text-gray-700 text-3xl"></i></div>
+                <div class="border-2 border-gray-300 font-bold rounded-full w-16 h-16 flex justify-center items-center"
+                    id="bola-3"><i class="fa-brands fa-linkedin-in text-gray-700 text-3xl"></i></div>
+            </div>
+        </div>
+        <p class="font-light text-2xl w-[60%] text-center text-[#58af9c]">or use your email for registration</p>
+        <form class="flex justify-center flex-col gap-4 items-center w-[60%]" id="formulario">
+            <label class="flex items-center gap-4 bg-gray-100 p-3 rounded-lg text-sm w-full" for="name">
+                <i class="fa-solid fa-user text-gray-700 text-3xl"></i>
+                <input class="text-2xl w-full p-3 outline-none" type="text" name="name" placeholder="Name">
+            </label>
+            <label class="flex items-center gap-4 bg-gray-100 p-3 rounded-lg text-sm w-full">
+                <i class=" fa-solid fa-envelope text-gray-700 text-3xl"></i>
+                <input class="text-2xl w-full p-3 outline-none" type="email" name="email" placeholder="Email">
+            </label>
+            <label class="flex items-center gap-4 bg-gray-100 p-3 rounded-lg text-sm w-full">
+                <i class=" fa-solid fa-lock text-gray-700 text-3xl"></i>
+                <input class="text-2xl w-full p-3 outline-none" type="password" name="password" placeholder="Password">
+            </label>
+            <button
+                class="bg-[#58af9c] text-white px-20 py-5 text-2xl font-bold uppercase rounded-full w-[50%] cursor-pointer">Sign
+                Up</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login Instagram</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-950 h-screen flex justify-center items-center">
+    <form class="bg-white w-[30%] p-7 round-[10px] shadow-md flex flex-col gap-2">
+        <h1 class="text-center text-2xl font-bold p-10">Instagram</h1>
+        <img src="instagram_logo.png" alt="Logo do instagram" />
+        <div class="flex flex-col gap-2">
+            <label for="email" class="text-xs"></label>
+            <input type="email" name="email" id="email" class="border-1 p-3 round-xl text-sm"
+                placeholder="Telefone, nome de usuário ou email" />
+        </div>
+        <div class="flex flex-col gap-2">
+            <label for="senha" class="text-xs"></label>
+            <input type="password" name="senha" id="senha" class="border-1 p-3 round-xl text-sm" placeholder="Senha" />
+        </div>
+        <div id="container-checkbox" class="flex flex-row justify-between">
+            <a href="Esqueceu a senha" class="text-xl text-blue-700 font-bold"></a>
+        </div>
+
+        <button class="bg-violet-700 text-white font-bold w-[100%] py-3 round-xl cursor-pointer hover:bg-violet-500"
+            type="submit" border-radius="15 px">
+            Entrar
+        </button>
+
+        <p class="text-xl text-center text-blue-600">
+            Entrar com o Facebook
+            <a href="Login alternativo" class="text-violet-700 font-bold"></a>
+        </p>
+
+        <p class="text-xl text-center text-white-700">
+            Esqueceu a senha?
+            <a href="Cadastre-se" class="text-violet-700 font-bold"></a>
+        </p>
+
+        <br />
+
+        <p class="text-xl text-center text-white-700">
+            Não tem uma conta?
+            <a href="Cadastre-se" class="text-violet-700 font-bold"></a>
+        </p>
+    </form>
+</body>
+
+</html>
